@@ -5,7 +5,7 @@
 " ===
 
 "==换源加速插件的下载
-let g:plug_url_format='https://git::@hub.fastgit.org/%s.git'
+let g:plug_url_format='https://git::@hub.fastgit.xyz/%s.git'
 
 if empty(glob($HOME.'/.config/nvim/autoload/plug.vim'))
 	silent !curl -fLo $HOME/.config/nvim/autoload/plug.vim --create-dirs
